@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", serif;
+
+}
+
+/* ============================================================================================================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* =========================================================Shared Style=================================================>> */
+.flex {
+    display: flex;
+}
+
+/* ============================================================================================================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+header {
+    width: calc(100vw - 240px);
+    margin: 0 auto;
+    margin-top: 87px;
+}
+
+/* ==========================================================Navigation Menu Design Start============>>>>>> */
+nav .menu-icon {
+    display: none;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+nav h3 {
+    color: rgb(58, 58, 58);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0px 30px;
+    padding: 4px 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* ==========================================================Banner Design Start============>>>>>> */
+
+.banner {
+    margin: 50px auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner .left h1 {
+    color: rgb(58, 58, 58);
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+
+.banner .left button {
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    padding: 10px 24px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    margin-top: 20px;
+}
+
+.banner .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+.banner .right img {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================================================================================== */
+/* ================================================================================================================================================== */
+/* ================================================================================================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    header {
+        width: calc(100vw - 40px);
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    /* ==========================================================Navigation Menu Design Start============>>>>>> */
+    nav .menu-icon {
+        display: block;
+    }
+
+    nav h3 {
+        font-size: 1.25rem;
+    }
+
+    #menuList {
+        display: none;
+
+    }
+    nav{
+        flex-direction: row-reverse;
+    }
+
+    /* ==========================================================Banner Design Start============>>>>>> */
+
+    
+.banner {
+    margin: 50px auto 20px;
+    flex-direction: column-reverse;
+}
+
+.banner .left h1 {
+    font-size: 2rem;
+}
+
+.banner .right {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner .right img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
